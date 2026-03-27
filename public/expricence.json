@@ -1,0 +1,39 @@
+[
+    {
+        "year": 2026,
+        "title": "Orvexa commercial web application", 
+        "description": "Developing and maintaining the Orvexa commercial web application using modern web technologies. Production-Style Product Proxy (Nginx + Express + Docker Compose)",
+
+        "location": "Addis Ababa, Ethiopia",
+        "period": "march 2026 — Present",
+        "current": true
+        
+    },
+    {
+        "year": 2025,
+        "title": "ALX Professional Foundations and ALX Backend Development",
+        "company": "ALX",
+        "location": "",
+        "period": "2nd Semester 2025",
+        "current": false,
+        "description": "Completed the ALX Professional Foundation program alongside GDG and backend development, building professional and backend development fundamentals."
+    },
+    {
+        "year": 2025,
+        "title": "Django — Google Developers Group",
+        "company": "GDG On Campus · AASTU",
+        "location": "",
+        "period": "1st & 2nd Semester 2025",
+        "current": false,
+        "description": "Learned Django through hands-on GDG sessions and mentorship. Built practical projects throughout the year."
+    },
+    {
+        "year": 2022,
+        "title": "Software Engineering",
+        "company": "Addis Ababa Science and Technology University",
+        "location": "",
+        "period": "2022 — Present",
+        "current": false,
+        "description": "Pursuing a Bachelor's degree in Software Engineering. All of the above happened while studying here — and it's been a fun ride."
+    }
+]

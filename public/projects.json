@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BuySphere",
+    "description": "A scalable and feature-rich e-commerce platform designed to streamline online shopping experiences for both customers and vendors, offering secure transactions, product management, and analytics.",
+    "tools": ["Django", "Templates", "PostgreSQL", "DRF"],
+    "framework": "Django"
+  },
+  {
+    "name": "OAuthBridge",
+    "description": "A universal authentication system that simplifies secure user login and authorization across multiple platforms, supporting OAuth standards and seamless integration with third-party services.",
+    "framework": "Django",
+    "tools": ["Django", "OAuth", "PostgreSQL"]
+  },
+  {
+    "name": "django-chat-system",
+    "description": "A real-time messaging application built with Django, enabling instant communication, group chats, and robust user management for modern web platforms.",
+    "framework": "Django",
+    "tools": ["Django", "Templates", "PostgreSQL", "Channels"]
+  },
+  {
+    "name": "game_hub",
+    "description": "A dynamic web application developed with TypeScript, serving as a central hub for discovering, reviewing, and sharing games, complete with user profiles and interactive features.",
+    "framework": "Next.js",
+    "tools": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL"]
+  },
+  {
+    "name": "house-price-prediction-ml",
+    "description": "A machine learning project in Python that leverages advanced algorithms to accurately predict house prices based on historical data and key market indicators.",
+    "tools": ["Python", "PyTorch", "Pandas", "NumPy"],
+    "framework": "PyTorch"
+  },
+  {
+    "name": "Orvexa",
+    "description": "A JavaScript-based project focused on delivering innovative web solutions, featuring modular architecture and modern UI/UX best practices.",
+    "tools": ["Nginx", "Node.js", "Express.js", "PostgreSQL"],
+    "framework": "Express.js"
+  },
+  {
+    "name": "news_share_app",
+    "description": "A cross-platform news sharing application built with Dart, enabling users to post, share, and discuss news articles in real time with a vibrant community.",
+    "framework": "Flutter",
+    "tools": ["Dart", "Flutter", "Supabase"]
+  },
+  {
+    "name": "facebook clone",
+    "description": "A Facebook clone focused on responsive UI design and secure user authentication, featuring login, signup, and modern social media-inspired layouts.",
+    "tools": ["Dart", "Flutter", "Firebase"],
+    "framework": "Flutter"
+  }
+]

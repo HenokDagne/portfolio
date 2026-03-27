@@ -1,0 +1,37 @@
+{
+  "techstacks": {
+    "frontend": [
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "React.js",
+      "UI Components",
+      "TypeScript",
+      "JavaScript",
+      "Next.js"
+    ],
+    "backend": [
+      "PHP",
+      "Python",
+      "Django",
+      "Express.js",
+      "Supabase",
+      "Firebase",
+      "Node.js",
+      "C++"
+    ],
+    "mobile": [
+      "Dart",
+      "Flutter"
+    ],
+    "database": [
+      "PostgreSQL",
+      "MySQL",
+      "SQLite"
+    ],
+    "versionControl": [
+      "Git",
+      "GitHub"
+    ]
+  }
+}
