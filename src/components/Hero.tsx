@@ -53,7 +53,7 @@ const Hero = () => {
             className="rounded-full px-6"
           >
             <a
-              href=""
+              href="https://drive.google.com/file/d/1otVeDTJMsHGazDlNsrDewnx-m72E2BJK/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
