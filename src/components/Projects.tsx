@@ -113,7 +113,7 @@ const Projects = () => {
               <p className="text-sm text-muted-foreground leading-relaxed mb-4 line-clamp-2">
                 {project.description}
               </p>
-              <div className="flex flex-wrap gap-1.5">
+              <div className="flex flex-wrap gap-1.5 items-center">
                 <span className="text-xs text-foreground/80 bg-muted px-2 py-0.5 rounded-md">
                   {project.stack}
                 </span>
@@ -125,6 +125,19 @@ const Projects = () => {
                     {t}
                   </span>
                 ))}
+                {/* GitHub link component (from Projects.json) */}
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2 text-xs text-blue-600 hover:underline flex items-center gap-1"
+                    aria-label={`View ${project.title} on GitHub`}
+                  >
+                    GitHub
+                    <ArrowUpRight className="w-3 h-3 inline" />
+                  </a>
+                )}
               </div>
             </a>
           ))}
