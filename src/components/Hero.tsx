@@ -53,11 +53,7 @@ const Hero = () => {
             size="lg"
             className="rounded-full px-6"
           >
-            <a
-              href={resumePdf}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={resumePdf} target="_blank" rel="noopener noreferrer">
               <Download className="w-4 h-4 mr-2" />
               Download Resume
             </a>
