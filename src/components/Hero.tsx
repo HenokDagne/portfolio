@@ -20,8 +20,8 @@ const Hero = () => {
             Henok Dagne
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground font-light leading-relaxed max-w-lg mx-auto">
-            Full-stack developer building modern products with Next.js, Django &
-            AI.
+            Backend developer building modern products with Django, Next.js,
+            Java Spring Boot & AI.
           </p>
         </div>
 

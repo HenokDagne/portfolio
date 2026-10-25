@@ -19,7 +19,9 @@ const TechStacks = () => {
         if (t.backend) groups.push({ title: "Backend", items: t.backend });
         if (t.mobile) groups.push({ title: "Mobile", items: t.mobile });
         if (t.database) groups.push({ title: "Databases", items: t.database });
-        if (t.versionControl) groups.push({ title: "Version Control", items: t.versionControl });
+        if (t.versionControl)
+          groups.push({ title: "Version Control", items: t.versionControl });
+        if (t.devOps) groups.push({ title: "DevOps", items: t.devOps });
 
         setStacks(groups);
       } catch (err) {
@@ -46,7 +48,8 @@ const TechStacks = () => {
             </p>
           </div>
           <p className="text-sm text-muted-foreground max-w-xs">
-            Organized by focus area, making it easy to explore projects by the technology stack behind them
+            Organized by focus area, making it easy to explore projects by the
+            technology stack behind them
           </p>
         </div>
         <div className="grid gap-6 md:grid-cols-2">
