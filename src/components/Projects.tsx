@@ -36,7 +36,9 @@ const Projects = () => {
         setProjects(mapped);
 
         // Build filters from frameworks
-        const frameworks = Array.from(new Set(mapped.map((m) => m.stack).filter(Boolean)));
+        const frameworks = Array.from(
+          new Set(mapped.map((m) => m.stack).filter(Boolean)),
+        );
         setFilters(["All", ...frameworks]);
       } catch (err) {
         console.error(err);
@@ -68,30 +70,32 @@ const Projects = () => {
                 Explore work by stack
               </p>
             </div>
-                <div className="flex flex-wrap gap-2">
-                  {loading ? (
-                    <div>Loading...</div>
-                  ) : (
-                    filters.map((stack) => (
-                      <button
-                        key={stack}
-                        type="button"
-                        onClick={() => setActiveStack(stack)}
-                        aria-pressed={activeStack === stack}
-                        className={`px-3 py-1.5 text-xs rounded-full border transition-colors duration-200 ${
-                          activeStack === stack
-                            ? "border-foreground bg-foreground text-background"
-                            : "border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
-                        }`}
-                      >
-                        {stack}
-                      </button>
-                    ))
-                  )}
-                </div>
+            <div className="flex flex-wrap gap-2">
+              {loading ? (
+                <div>Loading...</div>
+              ) : (
+                filters.map((stack) => (
+                  <button
+                    key={stack}
+                    type="button"
+                    onClick={() => setActiveStack(stack)}
+                    aria-pressed={activeStack === stack}
+                    className={`px-3 py-1.5 text-xs rounded-full border transition-colors duration-200 ${
+                      activeStack === stack
+                        ? "border-foreground bg-foreground text-background"
+                        : "border-border text-muted-foreground hover:text-foreground hover:border-foreground/30"
+                    }`}
+                  >
+                    {stack}
+                  </button>
+                ))
+              )}
+            </div>
           </div>
           <p className="text-sm text-muted-foreground">
-            Showing {visibleProjects.length} projects for {activeStack === "All" ? "all stacks" : activeStack}. Some work is not listed due to deployment issues.
+            Showing {visibleProjects.length} projects for{" "}
+            {activeStack === "All" ? "all stacks" : activeStack}. Some work is
+            not listed due to deployment issues.
           </p>
         </div>
 
@@ -99,7 +103,7 @@ const Projects = () => {
           {visibleProjects.map((project, i) => (
             <a
               key={i}
-              href={project.live || project.github}
+              href={project.live || project.github || "#"}
               target="_blank"
               rel="noopener noreferrer"
               className="group relative p-6 rounded-xl border border-border/50 hover:border-foreground/15 hover:bg-muted/30 transition-all duration-200"
@@ -153,8 +157,7 @@ const Projects = () => {
             View more projects on GitHub
             <ArrowUpRight className="w-3.5 h-3.5" />
           </a>
-          <p className="text-xs text-muted-foreground mt-3">
-          </p>
+          <p className="text-xs text-muted-foreground mt-3"></p>
         </div>
       </div>
     </section>

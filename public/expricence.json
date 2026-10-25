@@ -1,13 +1,58 @@
 [
     {
         "year": 2026,
-        "title": "Orvexa commercial web application", 
+        "title": "Indoor Air Quality Alert & Temperature-Controlled Ventilation System",
+        "period": "2026",
+        "current": false,
+        "description": "Participated in and developed an Indoor Air Quality Alert and Temperature-Controlled Ventilation System. Worked with low-level programming languages and IoT technologies to collect environmental data, monitor air quality and temperature, trigger alerts, and control ventilation based on sensor readings."
+    },
+    {
+        "year": 2026,
+        "title": "Full-Stack Developer Internship — iDATA Technology Center PLC",
+        "company": "iDATA Technology Center PLC",
+        "period": "June — September 2026",
+        "current": false,
+        "description": "Worked as a Full-Stack Developer intern, contributing to four major software projects: Ethiopia Volleyball Management System (EVMS), Smart Agriculture Oromia, Report Management System (RMS), and Clinic Management System (CMS). Gained practical experience in requirements analysis, system and database design, UI/UX design, frontend and backend development, REST API integration, and software testing using Next.js, React, NestJS, PostgreSQL, and Apache Kafka."
+    },
+    {
+        "year": 2026,
+        "title": "Smart Agriculture Oromia",
+        "company": "iDATA Technology Center PLC",
+        "period": "2026",
+        "current": false,
+        "description": "Developed the Farmer and Farmland services as a Full-Stack Developer within a 13-microservice agricultural management platform. Implemented frontend interfaces, backend APIs, database operations, and service integration using Next.js, NestJS, PostgreSQL, and Apache Kafka. Performed unit and integration testing to verify functionality and service communication."
+    },
+    {
+        "year": 2026,
+        "title": "Ethiopia Volleyball Management System (EVMS)",
+        "company": "iDATA Technology Center PLC",
+        "period": "2026",
+        "current": false,
+        "description": "Contributed to the development of a comprehensive volleyball management platform consisting of 11 main modules and 3 cross-cutting modules. Worked on frontend and backend development, database design, system architecture, UI/UX implementation, API integration, authentication, and authorization using Next.js, NestJS, and PostgreSQL."
+    },
+    {
+        "year": 2026,
+        "title": "Report Management System (RMS)",
+        "company": "iDATA Technology Center PLC",
+        "period": "2026",
+        "current": false,
+        "description": "Developed features for a hierarchical planning and reporting platform supporting Zone, Woreda, and Kebele administrative levels. Worked on requirements documentation (BRS/SRS), UI/UX design, annual and quarterly planning, plan allocation, report submission, approval, and report aggregation using Next.js, NestJS, and PostgreSQL."
+    },
+    {
+        "year": 2026,
+        "title": "Clinic Management System (CMS)",
+        "company": "iDATA Technology Center PLC",
+        "period": "2026",
+        "current": false,
+        "description": "Developed features for the Outpatient Department (OPD) and Report Management Service within a 12-module clinic management platform. Implemented patient consultation workflows, triage integration, clinical forms, diagnosis and treatment features, report generation, and API integration using Next.js, NestJS, and PostgreSQL."
+    },
+    {
+        "year": 2024,
+        "title": "Orvexa commercial web application",
         "description": "Developing and maintaining the Orvexa commercial web application using modern web technologies. Production-Style Product Proxy (Nginx + Express + Docker Compose)",
-
         "location": "Addis Ababa, Ethiopia",
-        "period": "march 2026 — Present",
+        "period": "march 2024 — Present",
         "current": true
-        
     },
     {
         "year": 2025,

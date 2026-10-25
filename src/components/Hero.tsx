@@ -1,5 +1,6 @@
 import { Github, Mail, ArrowDown, Download } from "lucide-react";
 import { Button } from "./ui/button";
+import resumePdf from "../assets/Henok_Dagne_FlowCV_Resume_2026-08-25.pdf";
 
 const Hero = () => {
   return (
@@ -53,7 +54,7 @@ const Hero = () => {
             className="rounded-full px-6"
           >
             <a
-              href="https://drive.google.com/file/d/1otVeDTJMsHGazDlNsrDewnx-m72E2BJK/view?usp=sharing"
+              href={resumePdf}
               target="_blank"
               rel="noopener noreferrer"
             >

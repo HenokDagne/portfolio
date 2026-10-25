@@ -4,6 +4,7 @@ import Experiences from "../components/Experiences";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import Certificates from "../components/Certificates";
+import InternshipProjects from "../components/InternshipProjects";
 import TechStacks from "../components/TechStacks";
 
 export default function HomePage() {
@@ -23,6 +24,9 @@ export default function HomePage() {
 
       {/* Certificates Section */}
       <Certificates />
+
+      {/* Internship Projects Section */}
+      <InternshipProjects />
 
       {/* Projects Section */}
       <Projects />
